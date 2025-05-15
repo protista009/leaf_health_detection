@@ -1,8 +1,8 @@
 import streamlit as st
-import torch
+
 from PIL import Image
 import numpy as np
-
+import torch
 # Load YOLOv5 model (make sure the path is correct and model is available)
 @st.cache_resource  # caches the model across Streamlit reruns
 def load_model():

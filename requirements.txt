@@ -6,6 +6,8 @@ ultralytics
 Pillow
 numpy
 opencv-python
+opencv-python-headless
+
 matplotlib
 pandas
 scikit-learn

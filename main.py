@@ -3,6 +3,8 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import torch
+import os
+import cv2  
 # Load YOLOv5 model (make sure the path is correct and model is available)
 @st.cache_resource  # caches the model across Streamlit reruns
 def load_model():

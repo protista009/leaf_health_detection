@@ -2,9 +2,11 @@ streamlit
 torch==2.0.1+cpu
 torchvision==0.15.2+cpu
 --extra-index-url https://download.pytorch.org/whl/cpu
-ultralytics>=8.2.34
-pillow
+ultralytics
+Pillow
 numpy
 opencv-python
 matplotlib
 pandas
+scikit-learn
+scipy

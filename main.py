@@ -6,6 +6,7 @@ import torch
 # Load YOLOv5 model (make sure the path is correct and model is available)
 @st.cache_resource  # caches the model across Streamlit reruns
 def load_model():
+    model_path = os.path.join(os.getcwd(), 'best.pt')
     model = torch.hub.load('ultralytics/yolov5', 'custom', path='best.pt', force_reload=False)
     return model
 
